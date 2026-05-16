@@ -1,0 +1,100 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The ",
+      "author": "Alex",
+      "available": 1
+    },
+    {
+      "id": 2,
+      "title": "dwa",
+      "author": "dwa",
+      "available": 1
+    },
+    {
+      "id": 3,
+      "title": "dwa",
+      "author": "dwa",
+      "available": 1
+    },
+    {
+      "id": 4,
+      "title": "dwadw",
+      "author": "dwadwa",
+      "available": 1
+    },
+    {
+      "id": 5,
+      "title": "dwadwa",
+      "author": "dwadwa",
+      "available": 1
+    },
+    {
+      "id": 6,
+      "title": "Alice in Wonderland",
+      "author": "Lewis Carroll",
+      "available": 1,
+      "pdfPath": "/uploads/books/6-Alice_in_Wonderland.pdf",
+      "pdfName": "Alice_in_Wonderland.pdf",
+      "pdfType": "application/pdf"
+    }
+  ],
+  "borrows": [
+    {
+      "id": 1,
+      "book_id": 1,
+      "action": "borrow",
+      "at": "2026-05-16T14:33:12.685Z"
+    },
+    {
+      "id": 2,
+      "book_id": 1,
+      "action": "return",
+      "at": "2026-05-16T14:33:13.545Z"
+    },
+    {
+      "id": 3,
+      "book_id": 6,
+      "action": "borrow",
+      "at": "2026-05-16T15:01:27.142Z"
+    },
+    {
+      "id": 4,
+      "book_id": 6,
+      "action": "return",
+      "at": "2026-05-16T15:01:27.884Z"
+    },
+    {
+      "id": 5,
+      "book_id": 6,
+      "action": "borrow",
+      "at": "2026-05-16T15:01:29.037Z"
+    },
+    {
+      "id": 6,
+      "book_id": 6,
+      "action": "return",
+      "at": "2026-05-16T15:01:29.487Z"
+    },
+    {
+      "id": 7,
+      "book_id": 6,
+      "action": "borrow",
+      "at": "2026-05-16T15:01:29.959Z"
+    },
+    {
+      "id": 8,
+      "book_id": 6,
+      "action": "return",
+      "at": "2026-05-16T15:01:30.410Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "email": "admin@example.com",
+      "password_hash": "$2a$10$1TiO.mkVZlK/IBleofvOpO9yehpQkMC7N/bZYiY0rXhyz9/BnUbBS"
+    }
+  ]
+}
